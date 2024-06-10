@@ -35,4 +35,19 @@ let value = 3
 let str1 = " piyush "
 let str2 ="mishra"
 let str3 = str1+ str2
-console.log(str3)
+// console.log(str3)    //piyush mishra
+// console.log(1 + "2")  //12
+
+// console.log("2" + 1) //21
+// console.log(1+ 1 + "2")  //22
+// console.log("2" +"2"+1)  //221
+// console.log(true)   //true
+// console.log(+true)  // 1
+// console.log(true+) is not defined 
+console.log(+"") //0
+let marks = 100
+marks++
+console.log(marks) //101
+console.log(marks++) //101
+console.log(++marks) // 103
+
