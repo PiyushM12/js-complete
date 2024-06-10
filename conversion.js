@@ -25,3 +25,14 @@ console.log(newbool);
 " "=> false #empty string
 "piyush"=> true
 */
+
+
+//now we will study about operations in js 
+
+let value = 3
+
+// basic operations
+let str1 = " piyush "
+let str2 ="mishra"
+let str3 = str1+ str2
+console.log(str3)
