@@ -1,0 +1,22 @@
+// date and time
+let mydate = new Date()
+console.log(mydate);
+console.log(typeof mydate);  // object
+console.log(mydate.toLocaleString());
+console.log(mydate.toDateString);
+console.log(mydate.getMonth());
+console.log(mydate);
+console.log(mydate);
+ let mynewdate = Date().toString()
+ let mycreatedDate = new Date(2024,5,12,5,45)// creates a date  12 june 2024 and time 5 45 am , zero besed indexing is used for the  numbers 
+  // date in specified format new Date("23-12-2024")
+  let mynewtime =  Date.now()
+ 
+ console.log(mynewdate);
+ console.log(mynewtime);
+ // https://github.com/PiyushM12/js-complete/
+ mynewtime.toLocaleString('default', {
+    weekday: "long",
+ }
+)
+    
